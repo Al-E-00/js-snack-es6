@@ -54,10 +54,10 @@ for (let i = 0; i < team.length; i++) {
 const newArrayTeam = [];
 
 for (let i = 0; i < team.length; i++) {
-    const {name, goal} = team[i];
+    const {name, foulsDrawn} = team[i];
     newArrayTeam.push ({
         name,
-        goal,
+        foulsDrawn,
     });
 };
 
