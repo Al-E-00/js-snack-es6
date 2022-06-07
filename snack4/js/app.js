@@ -27,8 +27,7 @@ let students = [
 
 
 const  capitalizedNames = students.map((student) => {
-    toUpperCase(student.name);
-    
+    return student.name.toUpperCase();
 });
 
 console.log(capitalizedNames);
