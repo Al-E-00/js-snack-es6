@@ -63,13 +63,8 @@ console.log(capitalizedNames);
 
 
 //grades more than 70
-const gradesMoreThan70 =  students.map((student) => {
-    if(student.grades > 70) {
-        return student.name;
-    } else {
-        return '';
-    }        
-})
+const gradesMoreThan70 =  students.filter((element) => element.grades > 70)
+    
 
 console.log(gradesMoreThan70);
 
@@ -77,7 +72,7 @@ console.log(gradesMoreThan70);
 
 const gradesMoreThan70AndId120 =  students.map((student) => {
     if(student.grades > 70 && student.id > 120) {
-        return student.name;
+        return student;
     } else {
         return '';
     }
