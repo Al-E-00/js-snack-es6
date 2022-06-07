@@ -26,9 +26,9 @@ let students = [
 ];
 
 
-const  capitalizedNames = students.map((number, i, students) => {
-    console.log(number);
-    console.log(i);
-    console.log(students);
+const  capitalizedNames = students.map((student) => {
+    toUpperCase(student.name);
     
 });
+
+console.log(capitalizedNames);
