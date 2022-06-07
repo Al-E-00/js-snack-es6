@@ -13,11 +13,23 @@ const maxNum = 4;
 
 let newArray = [];
 
-array.forEach((element, i) => {
-    element = myArray;
-    if (i >= minNum && i <= maxNum) {
-        newArray.push(element[i]);
+//exercise executed with forEach
+
+myArray.forEach(function(names, i){
+    if ( i >= minNum && i <= maxNum) {
+        newArray.push(names);
     }
 });
 
 console.log(newArray);
+
+
+//exercise executed with filter
+
+const newArrayTwo = myArray.filter((name, i) => {
+    if (i >= minNum && i <= maxNum){
+        return name;
+    }
+})
+
+console.log(newArrayTwo);
