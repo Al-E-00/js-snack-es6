@@ -26,6 +26,6 @@ console.log(newArray);
 
 //exercise executed with filter
 
-const newArrayTwo = myArray.filter( i => myArray[i] >= minNum && myArray[i] <= maxNum)
+const newArrayTwo = myArray.filter((element, i)  => i >= minNum && i<= maxNum);
 
 console.log(newArrayTwo);
