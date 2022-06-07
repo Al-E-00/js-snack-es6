@@ -15,14 +15,43 @@ Due a list of students of a college, with the total of their votes
 3- We have to create a new array with all the students that have a total of vows more than 70 and id more tha 120.
 */
 
-let students = [
-    { name: ‘Marco’, id: 213, grades: 78 },
-    { name: ‘Paola’, id: 110, grades: 96 },
-    { name: ‘Andrea’, id: 250, grades: 48 },
-    { name: ‘Gaia’, id: 145, grades: 74 },
-    { name: ‘Luigi’, id: 196, grades: 68 },
-    { name: ‘Piero’, id: 102, grades: 50 },
-    { name: ‘Francesca’, id: 120, grades: 84 },
+let student = [
+    {
+        name: 'Marco',
+        id: 213,
+        grades: 78
+    },
+    {
+        name: 'Paola',
+        id: 110,
+        grades: 96
+    },
+    {
+        name: 'Andrea',
+        id: 250,
+        grades: 48
+    },
+    {
+        name: 'Gaia',
+        id: 145,
+        grades: 74
+    },
+    {
+        name: 'Luigi',
+        id: 196,
+        grades: 68
+    },
+    {
+        name: 'Piero',
+        id: 102,
+        grades: 50
+    },
+    {
+        name: 'Francesca',
+        id: 120,
+        grades: 84
+    },
+
 ];
 
 
