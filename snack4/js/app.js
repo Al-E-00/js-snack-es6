@@ -15,7 +15,7 @@ Due a list of students of a college, with the total of their votes
 3- We have to create a new array with all the students that have a total of vows more than 70 and id more tha 120.
 */
 
-let student = [
+let students = [
     {
         name: 'Marco',
         id: 213,
