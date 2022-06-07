@@ -63,3 +63,5 @@ for (let i = 0; i < team.length; i++) {
 
 console.table(team);
 console.log(newArrayTeam);
+
+
