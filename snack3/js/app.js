@@ -8,7 +8,7 @@ Execute this exercise fisrt with forEach and then with filter.
 
 const myArray = ['Michele', 'Fabio', 'Roberto', 'Giovanni', 'Simone', 'Chiara'];
 
-const minNum = 2;
+const minNum = 1;
 const maxNum = 4;
 
 let newArray = [];
@@ -16,7 +16,7 @@ let newArray = [];
 //exercise executed with forEach
 
 myArray.forEach(function(names, i){
-    if ( i >= minNum && i <= maxNum) {
+    if ( i > minNum && i < maxNum) {
         newArray.push(names);
     }
 });
@@ -26,6 +26,6 @@ console.log(newArray);
 
 //exercise executed with filter
 
-const newArrayTwo = myArray.filter((element, i)  => i >= minNum && i<= maxNum);
+const newArrayTwo = myArray.filter((element, i)  => i > minNum && i< maxNum);
 
 console.log(newArrayTwo);
