@@ -63,7 +63,17 @@ console.log(capitalizedNames);
 
 
 //grades more than 70
-const gradesMoreThan70 =  students.filter((element) => element.grades > 70)
+
+const gradesMoreThan70 =  students.filter((element) => 
+{
+    // if we don't have grades return false
+    
+    if(!element.grades){
+        return false;
+    }
+    const { grades } = element;
+    return grades > 70;
+});
     
 
 console.log(gradesMoreThan70);
